@@ -1,0 +1,28 @@
+{
+  "name": "javascript-respul-api-crud",
+  "version": "1.0.0",
+  "description": "Restpul api crud - express",
+  "homepage": "https://github.com/TainSiddik/JavaScript-Respul-Api-CRUD#readme",
+  "bugs": {
+    "url": "https://github.com/TainSiddik/JavaScript-Respul-Api-CRUD/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TainSiddik/JavaScript-Respul-Api-CRUD.git"
+  },
+  "license": "ISC",
+  "author": "TA'IN SIDDIK",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch ./src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5"
+  }
+}
